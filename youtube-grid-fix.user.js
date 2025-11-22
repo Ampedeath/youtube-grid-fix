@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         YouTube 4 Videos Per Row Fix|Size fix.
 // @namespace    https://youtube.com/
-// @version      1.0
+// @version      1.1
 // @description  Choose 3/4/5 videos per row via menu.
 // @author       Ampedeath
+// @license      MIT
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        GM_setValue
