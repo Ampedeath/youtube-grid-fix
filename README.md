@@ -33,6 +33,11 @@ Perfect for users who want a cleaner layout, better density, or just want YouTub
 
 3. **Tampermonkey will automatically prompt you to Install.**
 
+> ### Note: if you just installed Tampermonkey, you must allow it to use user scripts. 
+> 1. Go to Extensions Management
+> 2. Find Tampermonkey and click "Details"
+> 3. Enable "Allow user scripts"
+
 ## How to Change Videos per Row
 
 After installing the script, open the Tampermonkey menu.
