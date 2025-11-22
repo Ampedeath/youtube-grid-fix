@@ -28,9 +28,9 @@ Perfect for users who want a cleaner layout, better density, or just want YouTub
  - Firefox: https://www.tampermonkey.net/?ext=dhdg&browser=firefox
 
 2. **Install the script by opening the RAW link:**
-```
- 
-```
+
+ - https://github.com/Ampedeath/youtube-grid-fix/raw/refs/heads/main/youtube-grid-fix.user.js
+
 3. **Tampermonkey will automatically prompt you to Install.**
 
 ## How to Change Videos per Row
