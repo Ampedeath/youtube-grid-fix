@@ -5,7 +5,7 @@
 
 Perfect for users who want a cleaner layout, better density, or just want YouTube to behave as it used to.
 
-## Features
+### Features
 
 - Selectable grid size: 3, 4, or 5 videos per row
 
@@ -15,9 +15,11 @@ Perfect for users who want a cleaner layout, better density, or just want YouTub
 
 - Settings persist thanks to Tampermonkey storage
 
-- Lightweight, zero overhead, stable
+- Uses CSS Grid for a more stable and consistent layout
 
-- Compatible with all YouTube pages
+- Lightweight and runs quietly in the background
+
+> **Note:** To keep the grid layout stable, the script hides some YouTube rich sections such as Shorts shelves, Breaking News, and similar recommendation blocks.
 
 
 ## Installation
@@ -43,13 +45,13 @@ Perfect for users who want a cleaner layout, better density, or just want YouTub
 After installing the script, open the Tampermonkey menu.
 You’ll see three options:
 
-- 3 videos per row
+- YouTube Grid: 3 videos per row
 
-- 4 videos per row
+- YouTube Grid: 4 videos per row
 
-- 5 videos per row
+- YouTube Grid: 5 videos per row
 
-Click your desired configuration, YouTube will updates instantly.
+Click your desired configuration, and YouTube will update instantly.
 
 
 ## Steps
@@ -65,13 +67,20 @@ Click your desired configuration, YouTube will updates instantly.
 
 ## How It Works
 
-The script modifies YouTube’s internal CSS variable:
-`--ytd-rich-grid-items-per-row`
-A MutationObserver ensures the layout stays correct even as YouTube reloads content dynamically.
+The script replaces YouTube’s default video grid with a cleaner CSS Grid layout and applies the selected number of columns: 3, 4, or 5.
 
-Your choice (3/4/5) is saved via Tampermonkey (`GM_setValue()`).
+Your choice is saved automatically, so the layout stays the same after refreshing YouTube or reopening the browser.
 
-Everything runs quietly in the background.
+YouTube loads pages dynamically, so the script also reapplies the layout after navigation without requiring a full page reload.
+
+To keep the grid stable, some extra YouTube sections like Shorts shelves, Breaking News, or similar blocks may be hidden.
+
+## Known Behavior
+
+- Shorts shelves may be hidden
+- Breaking News sections may be hidden
+- Some recommendation blocks may be hidden
+- The script is focused on keeping the main YouTube video grid consistent
 
 ## Author
 ***Ampedeath***
