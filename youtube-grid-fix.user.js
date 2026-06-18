@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         YouTube Grid Fix - 3/4/5 Videos Per Row
-// @namespace    https://github.com/Ampedeath/youtube-grid-fix
+// @name         YouTube 4 Videos Per Row Fix|Size fix.
+// @namespace    https://youtube.com/
 // @version      1.2.0
 // @description  Choose 3, 4, or 5 videos per row on YouTube using a Tampermonkey menu.
 // @author       Ampedeath
